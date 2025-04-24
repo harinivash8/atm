@@ -9,5 +9,5 @@ sudo usermod -a -G docker ec2-user
 
 # Optional: Enable Docker to start on boot
 sudo systemctl enable docker
-
+chmod +x scripts/install_docker.sh
 echo "Docker installed and started."
